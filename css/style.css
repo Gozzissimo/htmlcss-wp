@@ -30,7 +30,7 @@ body{
 
 header {
     margin-bottom: 20px;
-    background-color: #E579E6;
+    /* background-color: #E579E6; */
 }
 
 /* logo */
@@ -40,6 +40,8 @@ header {
 
 .logo-img {
     height: 100%;
+    padding-right: 1em;
+    border-right: 1px solid lightgray;
 }
 
 /* nav bar */
