@@ -8,6 +8,7 @@
 /* font */
 html {
     font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body{
@@ -28,9 +29,28 @@ body{
 }
 
 header {
-    height: 5em;
     margin-bottom: 20px;
     background-color: #E579E6;
+}
+
+/* logo */
+.logo-bar {
+    height: 3.5em;
+}
+
+.logo-img {
+    height: 100%;
+}
+
+/* nav bar */
+.nav-bar {
+    margin-top: 1.5em;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    margin-right: 1em;
+    font-size: 0.8em;
 }
 
 .jumbotron {
