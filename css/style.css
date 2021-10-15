@@ -7,7 +7,7 @@
 
 /* font */
 html {
-    font-size: 80%;
+    font-size: 100%;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -62,17 +62,13 @@ header {
     color: white;
     background-size: cover;
     background-position-y: center;
-    border-radius: 5px;
-}
-
-.jumbo-tron,
-.jumbo-transp {
     border-radius: 10px;
 }
 
-.jumbo-transp {
+.transp {
     width: 100%;
     height: 100%;
+    border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.25);
 }
 
@@ -83,6 +79,8 @@ header {
 .jumbo-text-title {
     font-size: 1.5em;
 }
+
+/* main-content-header */
 
 .main-content {
     margin-bottom: 20px;
@@ -96,14 +94,17 @@ header {
     font-size: 2em;
 }
 
+.content-header p {
+    color: lightgray;
+}
+
+/* columnns */
 .main .main-content-main {
     padding-bottom: 20px;
 }
 
 [class*="col-"] {
     float: left;
-    height: 25em;
-    background-color: #ABCFE7;
 }
 
 .col-side {
@@ -113,6 +114,33 @@ header {
 .col-center {
     width: calc(60% - 30px) ;
     margin: 0 15px;
+}
+
+[class*="main-image"] {
+    height: 10em;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-image-left {
+    background-image: url(../img/img-1.jpg);
+}
+
+.main-image-center {
+    background-image: url(../img/banner-2.jpg);
+}
+
+.main-image-right {
+    background-image: url(../img/img-3.jpg);
+}
+
+.main-content-main .title {
+    color: black;
+    padding: 1em 0;
+}
+
+.main-content-main .text {
+    color: lightgray;
 }
 
 footer {
