@@ -62,7 +62,7 @@ header {
     color: white;
     background-size: cover;
     background-position-y: center;
-    border-radius: 10px;
+    overflow: hidden;
 }
 
 .transp {
@@ -149,6 +149,6 @@ footer {
     text-align: center;
 }
 
-.red-heart {
+.red {
     color: red;
 }
